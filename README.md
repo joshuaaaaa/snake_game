@@ -5,6 +5,9 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 A fun and interactive Snake game card for Home Assistant with portal mechanics and multiple game modes.
+![start](https://github.com/user-attachments/assets/76fb6bfd-8b7a-4978-917c-6adddd3db34d)
+
+![end](https://github.com/user-attachments/assets/69eee880-4eda-4a43-9498-ed78a2b8c5ad)
 
 ## 🎮 Features
 
