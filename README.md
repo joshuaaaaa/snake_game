@@ -30,7 +30,7 @@ A fun and interactive Snake game card for Home Assistant with portal mechanics a
 
 ```yaml
 resources:
-  - url: /hacsfiles/www/snake-card.js
+  - url: /hacsfiles/snake-card/snake-card.js
     type: module
 ```
 5. Restart Home Assistant 
