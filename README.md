@@ -22,10 +22,17 @@ A fun and interactive Snake game card for Home Assistant.
 2. Click on the **three dots** in the top right corner
 3. Select **Custom repositories**
 4. Add this repository URL: `https://github.com/joshuaaaaa/snake_game`
-5. Select category: **Lovelace**
+5. Select category: **Dashboard**
 6. Click **Add**
 7. Find **Snake Card** in HACS and click **Download**
 8. Restart Home Assistant
+9. Add the following to your Lovelace resources:
+
+```yaml
+resources:
+  - url: /hacsfiles/snake_game/snake_game.js
+    type: module
+```
 
 ### Method 2: Manual Installation
 1. Download the [`snake_game.js`](dist/snake_game.js) file
