@@ -1,8 +1,5 @@
 {
-  "name": "Snake Game",
-  "content_in_root": false,
-  "render_readme": true,
-  "filename": "snake-card.js",
-  "domains": ["snake_game"],
-  "country": "CZ"
+  "name": "Snake Card",
+  "filename": "snake_game.js",
+  "render_readme": true
 }
