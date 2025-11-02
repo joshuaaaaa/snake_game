@@ -1,7 +1,9 @@
 {
   "name": "Snake Card",
   "content_in_root": false,
-  "filename": "snake_card.js",
-  "render_readme": true,
-  "country": ["CZ"]
+  "filename": "snake_game.js",
+  "render_readme": false,
+  "country": [
+    "CZ"
+  ]
 }
