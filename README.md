@@ -26,14 +26,7 @@ A fun and interactive Snake game card for Home Assistant with portal mechanics a
 1. Add this repository to HACS as a custom repository
 2. Search for **"Snake Card"**   in HACS
 3. Click **Download this repository with HACS**  
-4. Add the following to your Lovelace resources:
-
-```yaml
-resources:
-  - url: /hacsfiles/snake-card/snake-card.js
-    type: module
-```
-5. Restart Home Assistant 
+4. Restart Home Assistant 
 
 ### Method 2: Manual Installation
 
