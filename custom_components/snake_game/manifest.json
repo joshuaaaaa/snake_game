@@ -6,8 +6,5 @@
   "requirements": [],
   "dependencies": [],
   "codeowners": ["@joshuaaaaa"],
-  "iot_class": "local_push",
-  "frontend": {
-    "javascript": ["www/snake-card.js"]
-  }
+  "iot_class": "local_push"
 }
