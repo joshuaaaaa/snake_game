@@ -5,8 +5,9 @@
 
 A fun and interactive Snake game card for Home Assistant.
 
-![start](https://github.com/user-attachments/assets/76fb6bfd-8b7a-4978-917c-6adddd3db34d)
-![end](https://github.com/user-attachments/assets/69eee880-4eda-4a43-9498-ed78a2b8c5ad)
+<p align="center">
+  <img src="images/screenshot.png" alt="Snake Card screenshot" width="480" />
+</p>
 
 ## 🎮 Features
 - **Classic Snake Gameplay**: Guide the snake to eat food and grow
@@ -82,7 +83,7 @@ grid_size: 15       # board size (8–30 cells)
 - **Restart Button**: Reset the game
 
 ## 🎯 How to Play
-1. Use arrow keys to control the snake
+1. Press an arrow key (or tap the board) to start, then steer the snake
 2. Eat the apples to grow, grab golden stars for bonus points
 3. Avoid hitting the walls and yourself
 4. Try to beat your high score!
