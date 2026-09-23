@@ -1,5 +1,5 @@
 # Snake Game Card for Home Assistant
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![Home Assistant](https://img.shields.io/badge/Home%20Assistant-%3E%3D%202022.3-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
@@ -13,7 +13,11 @@ A fun and interactive Snake game card for Home Assistant.
 - **Responsive Design**: Works on desktop and mobile devices
 - **Home Assistant Theming**: Automatically adapts to your HA theme
 - **Progressive Difficulty**: Game speeds up as you score points
-- **Visual Effects**: Smooth animations and flashing food
+- **Rich Graphics**: Smooth animated snake with gradient body, eyes, blinking and tongue, shiny apples, rotating bonus stars
+- **Visual Effects**: Particle bursts, floating score popups, level-up banner, screen shake on crash
+- **Score / Best / Level**: High score is saved in the browser
+- **Bonus Food**: Every 5 apples a golden star appears for a few seconds (+5 points)
+- **Mobile Friendly**: Swipe on the board or use the on-screen D-pad
 
 ## 🚀 Installation
 
@@ -63,14 +67,24 @@ Add the card to your Lovelace dashboard:
 type: custom:snake-card
 ```
 
+Optional settings:
+```yaml
+type: custom:snake-card
+title: Snake        # card title
+grid_size: 15       # board size (8–30 cells)
+```
+
 ## ⌨️ Controls
-- **Arrow Keys**: Control snake direction (↑ ↓ ← →)
+- **Arrow Keys / WASD**: Control snake direction (↑ ↓ ← →)
+- **Space / P**: Pause / resume
+- **Enter**: Play again after game over
+- **Touch**: Swipe on the board, tap to start/pause, or use the D-pad
 - **Restart Button**: Reset the game
 
 ## 🎯 How to Play
 1. Use arrow keys to control the snake
-2. Eat the food (flashing squares) to grow
-3. Avoid hitting yourself
+2. Eat the apples to grow, grab golden stars for bonus points
+3. Avoid hitting the walls and yourself
 4. Try to beat your high score!
 
 ## 📄 License
